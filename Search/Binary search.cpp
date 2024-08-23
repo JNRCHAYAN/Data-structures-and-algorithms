@@ -14,7 +14,7 @@ int main()
     l = 0;
     u = n - 1;
     middle = (l+u)/2;
- while (l <= u)
+  while (l <= u)
     {
 
 if (array[middle] < search)

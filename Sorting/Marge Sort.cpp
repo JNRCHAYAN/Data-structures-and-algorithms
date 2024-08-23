@@ -67,6 +67,7 @@ void printArray(int arr[], int size) {
 int main() {
   int arr[100];
    int n;
+  
    cin >> n;
    cout << "Enter Your Array : ";
    for(int i=0;i<n;i++)
