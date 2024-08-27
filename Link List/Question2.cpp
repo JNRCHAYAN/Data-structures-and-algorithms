@@ -50,7 +50,9 @@ void creation()
     {
         temp->next=newnode;
         temp=newnode;
-    } }
+    } 
+    
+    }
     auto end = high_resolution_clock::now();
     duration<double> elapsed = end - start;
     cout << "LinkList Create Time Need :  "<< elapsed.count() << "seconds" << endl;
