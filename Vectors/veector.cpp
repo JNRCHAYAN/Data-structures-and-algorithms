@@ -17,4 +17,9 @@ int main()
     cout << "Size Of numbers : " << number.size() << endl;
     cout << "Capacity Of numbers : " << number.capacity()<< endl;
  
+    vector<int> numbers(10,5);
+    for(int i=0;i<numbers.size();i++)
+    {
+        cout << numbers[i] << endl;
+    }
 }
