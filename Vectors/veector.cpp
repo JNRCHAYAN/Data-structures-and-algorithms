@@ -11,8 +11,10 @@ int main()
     number.push_back(2);
     number.push_back(3);
     number.push_back(4);
+    number.push_back(4);
+    number.push_back(4);
 
-    cout << number[0] << endl;
-    cout << number[1]<< endl;
-    cout << number[2]<< endl;
+    cout << "Size Of numbers : " << number.size() << endl;
+    cout << "Capacity Of numbers : " << number.capacity()<< endl;
+ 
 }
